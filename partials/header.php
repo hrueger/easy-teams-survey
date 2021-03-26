@@ -11,7 +11,7 @@
         </li>
         <?php if (isLoggedin() && isAdmin()) { ?>
           <li class="nav-item" data-turbolinks="false">
-            <a href="classes.php" class="nav-link <?php onPageActive("classes.php") ?>">Auswertung</a>
+            <a href="results.php" class="nav-link <?php onPageActive("results.php") ?>">Auswertung</a>
           </li>
         <?php } ?>
         </ul>
