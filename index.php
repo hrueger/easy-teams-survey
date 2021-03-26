@@ -2,8 +2,8 @@
 <?php require_once("./lib.php"); ?>
 
 <div class="jumbotron">
-  <h1>AG Klassenfotos 2021</h1>
-  <p class="lead mb-5">Portraitfotos der Schüler für den Jahresbericht 2021 hochladen</p>
+  <h1><?php echo htmlspecialchars($_ENV["TITLE"]); ?></h1>
+  <p class="lead mb-5">Eine Umfrage der Jahrgangsstufensprecher</p>
   <?php if (isLoggedin()) {
   ?>
     <h4>Willkommen <?php echo $_SESSION["username"] ?>!</h4>
