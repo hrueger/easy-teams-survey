@@ -43,7 +43,7 @@
           }
         }
       }
-      asort($answers);
+      arsort($answers);
       ?>
 
 
